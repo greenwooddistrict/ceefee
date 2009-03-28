@@ -1,0 +1,9 @@
+
+lastserver=0
+ftpserver0=RedHat Linux|Standard FTP|ftp.redhat.com|21|anonymous|anon@|1|1|
+ftpserver1=Sun MicroSystems|Standard FTP|ftp.sun.com|21|anonymous|anon@|1|1|
+ftpserver2=FreeBSD|Standard FTP|ftp.freebsd.org|21|anonymous|anon@|1|1|
+ftpserver3=Microsoft|Standard FTP|ftp.microsoft.com|21|anonymous|anon@|1|1|
+ftpserver4=Adobe|Standard FTP|ftp.adobe.com|21|anonymous|anon@|0|0|
+ftpserver4=Trend-Micro|Standard FTP|ftp.antivirus.com|21|anonymous|anon@|0|0|
+activitylisthistorytrail0=/pub/redhat/|/pub/redhat/linux/|/pub/redhat/linux/enterprise/

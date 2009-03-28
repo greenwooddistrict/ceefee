@@ -1,0 +1,23 @@
+// General
+downloaddir=C:\My Downloads\
+
+// Network
+connectiontimeout=15000
+connectionattempts=15
+connectiondefaultmtu=513
+
+// L&F
+lastprotocol=Standard FTP
+lastmethod=0
+historytrailsize=3
+graphicsmode=1
+displaydeleteconfirmations=true
+displayoverwriteconfirmations=true
+showsbtabadvancedview=false
+width=680
+height=563
+x-position=81
+y-position=5
+extendedstate=0
+sbtabmaindividerlocation=383
+viewtabhorizontalsplitpanedividerlocation=431

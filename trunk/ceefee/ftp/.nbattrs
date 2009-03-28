@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="displaydirectory.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="displaydirectory"/>
+    </fileobject>
+    <fileobject name="download.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="download"/>
+    </fileobject>
+    <fileobject name="downloadfolder.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="downloadfolder"/>
+    </fileobject>
+    <fileobject name="establishftpconnection.java">
+        <attr name="class_dependency_java.lang.Runnable" stringvalue="establishftpconnection"/>
+    </fileobject>
+    <fileobject name="general.java">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="removefolder.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="removefolder"/>
+    </fileobject>
+    <fileobject name="upload.java">
+        <attr name="class_dependency_java.lang.Thread" stringvalue="upload"/>
+    </fileobject>
+</attributes>
