@@ -1,0 +1,12 @@
+
+lastserver=0
+ftpserver0=NetBSD|Standard FTP|ftp.chimeravision.com|21|chimerav|signey66|1|1|
+ftpserver1=OpenBSD|Standard FTP|127.0.0.1|21|griff7eb|rhvZACzQ|1|1|
+ftpserver2=FreeBSD|Standard FTP|ftp.freebsd.org|21|anonymous|anon@|1|1|
+ftpserver3=Microsoft|Standard FTP|ftp.microsoft.com|21|anonymous|anon@|1|1|
+ftpserver4=Adobe|Standard FTP|127.0.0.1|21|griff7eb|rhvZACzQ|0|0|
+activitylisthistorytrail0=/public_html/|/public_html/ceefee/|/public_html/ceefee/
+activitylisthistorytrail3=/Softlib/|/Softlib/MSLFILES/|/Softlib/MSLFILES/|/Softlib/
+activitylisthistorytrail1=/|/Recycled/|/Recycled/
+activitylisthistorytrail2=/pub/FreeBSD/releases/i386/4.10-RC3/|/pub/FreeBSD/releases/i386/4.10-RC3/./|/pub/FreeBSD/releases/i386/4.10-RC3/./
+activitylisthistorytrail4=/Program Files/|/Program Files/|/
