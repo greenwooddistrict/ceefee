@@ -2,6 +2,7 @@
 !define PRODUCT_VERSION "1.0"
 !define PRODUCT_WEB_SITE "http://www.ceefee.com/"
 !define PRODUCT_EXECUTABLE "ceefee.jar"
+!define PRODUCT_ICON "_dd32.ico"
 
 ; The name of the installer
 Name "${PRODUCT_NAME}"
@@ -73,7 +74,7 @@ SectionEnd
 ; Optional Shortcuts sections (can be disabled by the user)
 Section "Start Menu Shortcuts"
     CreateDirectory "$SMPROGRAMS\${PRODUCT_NAME}"
-    CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_EXECUTABLE}" 0
+    CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_ICON}" 0
     CreateShortCut "$SMPROGRAMS\${PRODUCT_NAME}\Uninstall ${PRODUCT_NAME}.lnk" "$INSTDIR\uninstall.exe" "" "$INSTDIR\uninstall.exe" 0
     ; Create a shortcut to the project Homepage
     WriteIniStr "$INSTDIR\${PRODUCT_NAME}.url" "InternetShortcut" "URL" "${PRODUCT_WEB_SITE}"
@@ -81,11 +82,11 @@ Section "Start Menu Shortcuts"
 SectionEnd
 
 Section "Desktop Shortcut"
-    CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_EXECUTABLE}" 0
+    CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_ICON}" 0
 SectionEnd
 
 Section "Quick Launch Shortcut"
-    CreateShortCut "$QUICKLAUNCH\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_EXECUTABLE}" 0
+    CreateShortCut "$QUICKLAUNCH\${PRODUCT_NAME}.lnk" "$INSTDIR\${PRODUCT_EXECUTABLE}" "" "$INSTDIR\${PRODUCT_ICON}" 0
 SectionEnd
 
 ;--------------------------------
