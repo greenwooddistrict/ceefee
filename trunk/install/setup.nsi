@@ -66,7 +66,7 @@ Section "${PRODUCT_NAME} (required)"
     WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}" "NoRepair" 1
     WriteUninstaller "uninstall.exe"
 
-    ExecWait '"$INSTDIR\jre-6u13-windows-i586-p-s.exe" /passive'
+    ExecWait '"$INSTDIR\jre.exe" /passive'
 
 SectionEnd
 
